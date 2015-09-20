@@ -26,7 +26,7 @@ http.createServer((req, res) => {
 ```
 
 ## API
-### lr(opts)
+### tk(opts)
 Create a duplex inject stream. Expects a `<body>` tag to be present. The
 following opts are available:
 - __kitId__: The unique id for your Typekit font kit. You can find this under
