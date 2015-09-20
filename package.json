@@ -1,6 +1,6 @@
 {
   "name": "inject-typekit-script-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Streamingly inject a Typekit kit script into html",
   "main": "index.js",
   "scripts": {
