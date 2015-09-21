@@ -12,7 +12,6 @@ function injectTypekitScriptStream (opts) {
   var tkTag = '<script src="//use.typekit.net/'
   tkTag += opts.kitId
   tkTag += '.js"></script>'
-  tkTag += 'src="http://'
   tkTag += '<script>try{Typekit.load({ async: true });}catch(e){}</script>'
 
   return hyperstream({ body: { _appendHtml: tkTag } })
