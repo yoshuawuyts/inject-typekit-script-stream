@@ -5,7 +5,9 @@
 [![Downloads][downloads-image]][downloads-url]
 [![js-standard-style][standard-image]][standard-url]
 
-Streamingly inject a Typekit kit script into html.
+Streamingly inject a Typekit kit script into html. This should probably only be
+done when prototyping, as the script itself is a non-negligable 0.3MB, where
+your typical font only weighs 0.01MB.
 
 ## Installation
 ```sh
